@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); 
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main{
+
+    margin-top: 80px;
+}
+
+/* shared styles here  */
+
+.section-title{
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+
+.section-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .9rem;
+    font-weight: 500;
+}
+.btn-primary{
+    
+    border-radius: 42px;
+    
+    color: rgb(255, 255, 255);
+    background: rgb(230, 83, 60);
+   
+
+    padding: 18px 35px;
+    border-radius: 40px;
+    border: none;
+    
+    font-weight: 700;
+    font-size: .9rem;
+    font-weight: bold;
+}
+.btn-primary-2{
+    border-radius: 42px;
+    padding: 18px 35px;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: .9rem;
+   
+    color: rgb(255, 255, 255);
+    background-color: #111111;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* header styles here  */
+.header{
+    background-color: #111111;
+    /* max-width: 1440px; */
+}
+
+/* nav styles here */
+.nav-hamburger-menu{
+    display: none;
+}
+.nav-hamburger-menu i{
+    font-size: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    padding-top: 50px;
+
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 3rem;
+    color: rgb(230, 83, 60);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 28px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color:rgb(255, 255, 255);
+}
+.home{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+  
+    padding: 7px 16px;
+    margin-left: 0px;
+
+      /* width: 30px; */
+    /* height: 30px; */
+    /* margin-right: 20px; */
+}
+
+/* banner styles here  */
+#shape{
+    font-family: Dancing Script, cursive; 
+    font-size: 5rem; 
+    font-weight: 400;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 214px 0 190px;
+    position: relative;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 4.2rem;
+    color: rgb(255, 255, 255);
+}
+.banner-image{
+   /* max-width: 349px; */
+}
+.banner-image{
+    width: 100%;
+}
+.banner-content{
+    /* width: 520px; */
+}
+
+.banner-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.videos-blur{
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    position: absolute;
+    left: 810px;
+    top: 120px;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+
+    width: 170px;
+    height: 99px;
+}
+.videos-blur p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: .8rem;
+    font-weight: 400;
+    margin-bottom: 65px;
+}
+.videos-blur h2{
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.videos-blur div{
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.tutorial-blur{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+
+    width: 170px;
+    height: 94px;
+
+    top: 410px;
+    left: 490px;
+}
+.tutorial-blur h2{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.tutorial-blur p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: .8rem;
+    font-weight: 400;
+
+}
+
+#circle{
+    width: 25%;
+    height: 30%;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-left: 2px;
+}
+.button{
+    display: flex;
+    gap: 10px;
+}
