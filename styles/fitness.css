@@ -219,3 +219,86 @@ nav li a{
     display: flex;
     gap: 10px;
 }
+
+/* habits-section-container styles here  */
+
+.habits-section-container{
+    width: 75%;
+    height: 452px;
+    border: 2px solid;
+    margin: 0px auto;
+    border-radius: 18px;
+
+    /* background: rgb(34, 34, 34); */
+
+    margin-bottom: 100px;
+
+    
+}
+.habits-text-content{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.movement{
+    width: 150px;
+    height: 150px;
+
+}
+
+.movement img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.movement h5{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0%;
+
+}
+.habits-image-container{
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+/* run section container styles here  */
+.run-section-container{
+    width: 75%;
+    height: 371px;
+    border: 2px solid;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+
+    border-radius: 18px;
+
+    background: rgb(34, 34, 34);
+
+    
+}
+.run-section-text{
+    width: 40%;
+    margin-top: 30px;
+
+}
+.run-section-image{
+    width: 366px;
+    height: 360px;
+    margin-top: 70px;
+    border-radius: 18px;
+}
+.run-section-image img{
+    width: 100%;
+    border-radius: 18px;
+}
