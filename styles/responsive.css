@@ -1,0 +1,215 @@
+/* mobile responsive media query  */
+
+@media screen and (max-width: 576px) {
+    .nav-hamburger-menu{
+        display: block;
+   
+    }
+
+    nav > ul{
+        display: none;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    /* tutorial blur responsive  */
+    .tutorial-blur {
+        top: 660px;
+        left: 0px;
+    }
+    .videos-blur {
+        left: 200px;
+        top: 480px;
+        width: auto;
+
+    }
+    #shape{
+        font-size: 3rem;
+    }
+
+    /* navbar related responsive  */
+    nav{
+        /* padding: 20px; */
+        margin: 20px;
+        align-items: center;
+    }
+
+    /* banner section responsive  */
+
+    .banner{
+        margin: 20px;
+        flex-direction: column;
+        width: auto;
+    }
+    .banner-image{
+        width: auto;
+    }
+    .banner-title{
+        font-size: 3rem;
+    }
+    .banner-description{
+        margin-bottom: 30px;
+    }
+
+    /* footer section responsive  */
+    footer{
+        height: auto;
+
+    }
+    .footer-main-container{
+        margin: 20px;
+    }
+    .footer-section-container{
+        grid-template-columns: 1fr;
+        gap: 0px;
+        padding: 20px;
+    }
+    .get-started h5{
+        margin: 10px;
+    }
+
+    /* run section responsive  */
+    .run-section-container{
+        flex-direction: column;
+        margin: 20px;
+        height: auto;
+        width: auto;
+        padding: 20px;
+    }
+    .run-section-image{
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+    .run-section-text{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .run-section-text h3{
+        font-size: 2rem;
+        margin: 0px;
+    }
+    .run-section-text p{
+        font-size: 1rem;
+
+    }
+    .run-section-text > button{
+        padding: 10px 130px;
+        font-weight: 700;
+
+    }
+    /* habits section container responsive  */
+    main > .habits-section-container{
+        margin-top: -80px;
+    }
+
+    .habits-section-container{
+        margin: 0px;
+        height: auto;
+        justify-items: center;
+        width: auto;
+
+    }
+    .habits-image-container {
+        grid-template-columns: 1fr;
+        margin: 0px;
+        justify-items: center;
+        gap: 130px;
+        margin-bottom: 150px;
+
+    }
+    .habits-text-content{
+        width: auto;
+        margin: 20px;
+    }
+    .habits-text-content h3{
+        font-size: 2rem;
+    }
+
+    /* calculator text content responsive  */
+    .calculator-section-container{
+        margin: 0px;
+        height: auto;
+    }
+    .calculator-text-content {
+        width: auto;
+    }
+    .calculator-text-content h3{
+        font-size: 2rem;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .calculator-text-content p{
+        margin-left: 20px;
+    }
+    .calculator-table-content{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .qna-child{
+        margin: 20px;
+        width: auto;
+        height: auto;
+    }
+    .qna-child button{
+        padding: 15px 65px;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .calculator-table-section h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    td, th{
+        padding: auto ;
+    }
+    .calculator-table-section{
+        width: auto;
+        height: auto;  
+    }
+
+    /* team section container responsive */
+    .team-section-container {
+        height: auto;
+        width: auto;
+        margin: 20px;
+    }
+    .team-image-content {
+        height: auto;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin-right: 0px;
+        padding-bottom: 15px;
+    }
+    .team-text-content {
+        width: auto;
+    }
+    .section-title{
+        font-size: 2rem;
+    }
+    .team-image{
+        width: 90%;
+        margin-left: 0px;
+        
+    }
+
+    /* unique section container styles here  */
+    .unique-section-container{
+        height: auto;
+        padding-bottom: 20px;
+
+    }
+    .news-container{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .unique-section-container{
+        width: 90%;
+
+
+    }
+
+}
