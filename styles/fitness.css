@@ -302,3 +302,102 @@ nav li a{
     width: 100%;
     border-radius: 18px;
 }
+
+/* calculator section container styles starts here  */
+.calculator-section-container{
+    /* width: 75%; */
+    height: 700px;
+    border: 2px solid;
+    /* margin: 0px auto; */
+    /* border-radius: 18px; */
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.calculator-text-content{
+    width: 45%;
+    margin: 0 auto;
+}
+.table-container{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+}
+.calculator-table-content{
+    width: 75%;
+    height: 470px;
+    /* border: 2px solid red; */
+    margin: 0px auto;
+    display: flex;
+
+    margin-top: 40px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calculator-table-section{
+    width: 45%;
+    height: 470px;
+    /* border: 2px solid red; */
+
+    /* margin-top: 50px; */
+  
+}
+.calculator-table-section h3{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* table section styles starts here  */
+table{
+    border-collapse: collapse;
+    color: white;
+}
+td, th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 25px ;
+}
+
+/* calculator input section styles here  */
+
+.qna-child{
+    /* border: 2px solid; */
+    width: 45%;
+    /* gap: 200px; */
+    margin: 0 auto;
+}
+
+.form-field{
+    width: 48%;
+    /* border: 2px solid; */
+    margin-top: 20px;
+}
+.form-container{
+    /* border: 2px solid; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-field-text-area{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.form-container input, textarea,select, option{
+    /* border: 2px solid; */
+    width: 90%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color:rgba(255, 255, 255, 0.575) ;
+    font-weight: 700;
+    border: none;
+
+}
+
+.chart-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
