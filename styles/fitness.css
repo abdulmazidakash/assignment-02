@@ -508,3 +508,46 @@ td, th{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+/* footer section styles starts here  */
+footer{
+    background: rgba(255, 255, 255, 0.1);
+    height: 400px;
+    margin-top: 100px;
+}
+.footer-section-container{
+    width: 100%;
+    /* border: 2px solid; */
+    margin: 0px auto;
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: 1.70fr 1fr 1fr;
+    text-align: start;
+    gap: 20px;
+    padding-top: 70px;
+}
+.footer-main-container{
+    width: 75%;
+    /* border: 2px solid; */
+    margin: 0px auto;
+    text-align: center;
+}
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.footer-brand{
+    font-weight: 700;
+    font-size: 3rem;
+    color: rgb(230, 83, 60);
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+.get-title{
+    color: rgb(255, 255, 255);
+}
+.get-started h5{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .9rem;
+    font-weight: 500;
+}
