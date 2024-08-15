@@ -16,11 +16,22 @@
     .tutorial-blur {
         top: 660px;
         left: 0px;
+   
+        height: auto;
+    }
+    .tutorial-blur h2 {
+        margin-top: 0px;
     }
     .videos-blur {
         left: 200px;
         top: 480px;
         width: auto;
+        padding-right: 10px;
+
+    }
+    .videos-blur h2{
+        margin-top: 13px;
+
 
     }
     #shape{
@@ -213,14 +224,10 @@
     }
     .play{
         display: block;
-        align-items: center;
-        justify-content: center;
     }
     #circle{
         background-color: #fff;
         display: none;
-        align-items: center;
-        justify-content: center;
 
     }
 
