@@ -115,7 +115,7 @@
                 <div class="calculator-table-content">
                     <div class="calculator-table-section">
                         <h3 class="chart-title">BMI Calculator Chart</h3>
-                        <table>
+                        <table class="bmi-calculator-table">
                             <thead>
                                 <tr>
                                     <th>BMI</th>
@@ -177,6 +177,89 @@
             </div>
                 </section>
 
+                <!-- unique-section-container-table  -->
+
+                <section>
+
+                    <div class="schedule-text-content">
+                        <h3 class="schedule-title section-title">Our Class Schedule</h3>
+                        <p class="section-description">Choose from a diverse range of fitness classes, available throughout the day, tailored to different fitness levels, ensuring you can find the perfect session for your goals.
+                        </p>
+                     </div>
+
+                    <table class="schedule">
+                        
+                        <thead>
+                            <tr>
+                                <th class="day" style="border-radius: 18px 0 0 0;">Time</th>
+                                <th class="day">Monday</th>
+                                <th class="day">Tuesday</th>
+                                <th class="day">Wednesday</th>
+                                <th class="day">Thursday</th>
+                                <th class="day">Friday</th>
+                                <th class="day">Saturday</th>
+                                <th class="day" style="border-radius: 0 18px 0 0;">Sunday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="table-data time">06.00-07.00</td>
+                                <td class="table-data">Fitness Class <br> <span class="trainer">Jerome Bell</span></td>
+                                <td class="table-data off-day-color"></td>
+                                <td class="table-data">Boxing Gym <br> <span class="trainer">Darrell Steward</span></td>
+                                <td class="table-data">Open Gym <br> <span class="trainer">Cameron Willi</span></td>
+                                <td class="table-data off-day-color"></td>
+                                <td class="table-data">Fitness Class <br> <span class="trainer">Jerome Bell</span></td>
+                                <td class="table-data" rowspan="2">Crossfit Pro <br> <span class="trainer">Theresa Webb</span></td>
+                
+                
+                            </tr>
+                            <tr>
+                                <td class="table-data time">07.00-08.00</td>
+                                <td class="table-data">Body Pump <br> <span class="trainer">Darrell Steward</span></td>
+                                <td class="table-data off-day-color"></td>
+                                <td class="table-data">Cardio Box <br> <span class="trainer">Cody Fisher</span></td>
+                                <td class="table-data off-day-color"></td>
+                                <td class="table-data" rowspan="2">Yoga Class <br> <span class="trainer">Dianne Russel</span></td>
+                                <td class="table-data off-day-color"></td>
+                                <!-- <td class="table-data">Fitness Class <br> <span class="trainer">Robert Cadge</span></td> -->
+                            </tr>
+                            <tr>
+                                <td class="table-data time">08.00-09.00</td>
+                                <td class="table-data">Open Gym <br> <span class="trainer">Cameron Willi</span></td>
+                                <td class="table-data">Fitness Class <br> <span class="trainer">Jerome Bell</span></td>
+                                <td class="table-data off-day-color" rowspan="2"></td>
+                                <td class="table-data">Yoga Class <br> <span class="trainer">Dianne Russel</span></td>
+                                <!-- <td class="table-data">Fitness Class <br> <span class="trainer">Robert Cadge</span></td> -->
+                                <td class="table-data">Crossfit Pro <br> <span class="trainer">Theresa Webb</span></td>
+                                <td class="table-data off-day-color"></td>
+                            </tr>
+                            <tr>
+                                <td class="table-data time">09.00-10.00</td>
+                                <td class="table-data" rowspan="2">Fitness Class <br> <span class="trainer">Jerome Bell</span></td>
+                                <td class="table-data">Fitness Class <br> <span class="trainer">Jerome Bell</span></td>
+                                <!-- <td></td> -->
+                                <td class="table-data">Open Gym <br> <span class="trainer">Cameron Willi</span></td>
+                                <td class="table-data"  rowspan="2">Boxing Gym <br> <span class="trainer">Darrell Steward</span></td>
+                                <td class="table-data off-day-color"></td>
+                                <td class="table-data">Cardio Box <br> <span class="trainer">Cody Fisher</span></td>
+                            </tr>
+                            <tr>
+                                <td class="table-data time" style="border-radius: 0 0 0 18px;">10.00-11.00</td>
+                                <!-- <td></td> -->
+                                <td class="table-data">Yoga Class <br> <span class="trainer">Dianne Russel</span></td>
+                                <td class="table-data">Fitness Class <br> <span class="trainer">Jerome Bell</span></td>
+                                <td class="table-data off-day-color"></td>
+                                <!-- <td></td> -->
+                                <td class="table-data off-day-color"></td>
+                                <td class="table-data" style="border-radius: 0 0 18px 0;">Open Gym <br> <span class="trainer">Cameron Willi</span></td>
+                            </tr>
+                                        
+                                            
+                        </tbody>
+                    </table>
+                </section>
+
                 <!-- team section container starts here  -->
 
                 <section class="team-section-container">
@@ -230,34 +313,7 @@
             </div>
                 </section>
 
-                <!-- unique section container  -->
-                <section class="unique-section-container">
-
-            <h3 class="section-title text-center text-center">Our Latest News & Articles</h3>
-
-                <div class="news-container">
-                    <div class="news-card">
-                        <img src="images/news1.jpg" alt="Workout Plans">
-                        <h3>Workout Plans</h3>
-                        <p>Tailored workout plans to reach your fitness goals. Build muscle, lose weight, or improve endurance.</p>
-                        <button class="btn-primary">Read More</button>
-                    </div>
-                    <div class="news-card">
-                        <img src="images/news2.jpg" alt="Fitness Gear">
-                        <h3>Fitness Gear</h3>
-                        <p>Elevate your workout with top-quality fitness gear. Find everything from apparel to equipment.</p>
-                        <button class="btn-primary">Read More</button>
-                    </div>
-                    <div class="news-card">
-                        <img src="images/news3.jpg" alt="Personal Trainer">
-                        <h3>Personal Trainer</h3>
-                        <p>Achieve your fitness goals with a personal trainer. Expert guidance for personalized workouts.</p>
-                        <button class="btn-primary">Read More</button>
-                    </div>
-                </div>
-                
-                </section>
-    </main>
+            </main>
 
     <!-- footer section starts here  -->
 

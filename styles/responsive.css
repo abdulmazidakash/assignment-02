@@ -198,19 +198,18 @@
     }
 
     /* unique section container styles here  */
-    .unique-section-container{
-        height: auto;
-        padding-bottom: 20px;
 
-    }
-    .news-container{
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    .unique-section-container{
+    .schedule{
+        display: block;
         width: 90%;
-
-
+        overflow-x: scroll;
+        white-space: nowrap;
+        height: auto;
+    }
+    .schedule-text-content{
+        margin: 0px 20px 20px;
+        width: 90%;
+        text-align: center;
     }
 
 }

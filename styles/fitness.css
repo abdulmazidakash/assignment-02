@@ -108,9 +108,6 @@ nav li a{
     padding: 7px 16px;
     margin-left: 0px;
 
-      /* width: 30px; */
-    /* height: 30px; */
-    /* margin-right: 20px; */
 }
 
 /* banner styles here  */
@@ -269,8 +266,6 @@ nav li a{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 
-    /* width: 100%; */
-    /* margin: 0 auto; */
     margin-top: 40px;
     margin-left: 80px;
 }
@@ -311,8 +306,7 @@ nav li a{
     /* width: 75%; */
     height: 700px;
     border: 2px solid;
-    /* margin: 0px auto; */
-    /* border-radius: 18px; */
+
     margin-top: 40px;
     margin-bottom: 60px;
 }
@@ -341,9 +335,6 @@ nav li a{
 .calculator-table-section{
     width: 45%;
     height: 470px;
-    /* border: 2px solid red; */
-
-    /* margin-top: 50px; */
   
 }
 .calculator-table-section h3{
@@ -352,7 +343,7 @@ nav li a{
     margin-bottom: 50px;
 }
 /* table section styles starts here  */
-table{
+.bmi-calculator-table{
     border-collapse: collapse;
     color: white;
 }
@@ -386,6 +377,15 @@ td, th{
     margin-bottom: 20px;
 
 }
+.form-field-text-area select{
+    width: 93%;
+    padding: 2px;
+
+}
+.form-field select{
+    width: 93%;
+    padding: 2px;
+}
 .form-container input, textarea,select, option{
     /* border: 2px solid; */
     width: 90%;
@@ -409,16 +409,9 @@ td, th{
     width: 75%;
     height: 700px;
     border: 2px solid;
-    margin: 0px auto;
+    margin: 40px auto 130px;
     border-radius: 18px;
-    margin-top: 40px;
-
-   
-    /* background: rgb(34, 34, 34); */
-    /* margin-bottom: 100px; */
-    /* background: rgb(34, 34, 34); */
     
-
 }
 
 .team-text-content{
@@ -474,43 +467,6 @@ td, th{
 
 }
 
- /* unique section container styles here  */
- .unique-section-container{
-    width: 75%;
-    margin: 0 auto;
-    border-radius: 18px;
-    background: rgb(34, 34, 34);
-    height: 600px;
-    margin-top: 130px;
-
-}
-
-.news-card{
-    width: 75%;
-    box-shadow: 3px 3px 4px 0px rgba(255, 255, 255, 0.575);
-    color: rgba(255, 255, 255, 0.5);
-    margin-left: 28px;
-    border-radius: 18px;
-    border: 1px solid rgba(255, 255, 255, 0.575);
-    padding: 10px;
-
-}
-.news-card img{
-    width: 100%;
-    border-radius: 18px 18px 0px 0px;
-}
-.news-card h3{
-    color: white;
-}
-.text-center{
-    text-align: center;
-    padding-top: 40px;
-
-}
-.news-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
 
 /* footer section styles starts here  */
 footer{
@@ -553,4 +509,58 @@ hr{
     color: rgba(255, 255, 255, 0.5);
     font-size: .9rem;
     font-weight: 500;
+}
+
+
+/* unique-section-container-table styles here  */
+
+.schedule{
+    /* border-collapse: collapse; */
+    width: 75%;
+    margin: 0 auto;
+    /* height: 100vh; */
+    height: 500px;
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.575);
+    background: rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.575) ;
+}
+.schedule-text-content{
+    width: 50%;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+.schedule-title{
+    text-align: center;
+    /* border: 1px solid gold; */
+}
+.table-data, .day{
+    border: 1px solid gray;
+    padding: 5px 5px ;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    /* color: white; */
+    
+
+}
+.day{
+    background-color: rgb(230, 83, 60);
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.trainer{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 0.575) ;
+}
+.time{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: white;
+}
+.off-day-color{
+    background-color: rgba(128, 128, 128, 0.2);
 }
