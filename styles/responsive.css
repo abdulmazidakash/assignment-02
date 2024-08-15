@@ -211,5 +211,17 @@
         width: 90%;
         text-align: center;
     }
+    .play{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    #circle{
+        background-color: #fff;
+        display: none;
+        align-items: center;
+        justify-content: center;
+
+    }
 
 }
